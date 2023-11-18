@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061347555092",
+    "project_id": "sara-8f5ff",
+    "storage_bucket": "sara-8f5ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061347555092:android:7a14ab128d73abc117f401",
+        "android_client_info": {
+          "package_name": "com.mastercoding.sara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFrckaNT-OUtozVFwJhwIE-jMWWajwaf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chooseLanguage">언어 선택</string>
+    <string name="english">영어</string>
+    <string name="app_name">사라</string>
+    <string name="content">안녕 사라</string>
+    <string name="register">등록하다</string>
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="click_to_login">로그인하려면 클릭하세요</string>
+    <string name="click_to_register">등록하려면 클릭하세요</string>
+    <string name="logout">로그 아웃</string>
+    <string name="korea">한국</string>
+    <string name="china">중국</string>
+</resources>

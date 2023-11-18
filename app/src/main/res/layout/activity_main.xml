@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Information" />
+
+    <TextView
+        android:id="@+id/input"
+        android:hint="@string/content"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="410dp"
+        android:layout_height="300dp"/>
+
+    <ImageView
+        android:id="@+id/speak"
+        android:layout_width="111dp"
+        android:layout_height="98dp"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+    <TextView
+        android:id="@+id/chooseLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseLanguage"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioButtonEnglish"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:padding="10dp"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/radioButtonKorea"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/korea"
+            android:padding="10dp"/>
+        <RadioButton
+            android:id="@+id/radioButtonChinese"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/china"
+            android:padding="10dp"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/logout"
+        android:text="@string/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
